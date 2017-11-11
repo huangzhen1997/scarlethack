@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256BDAED1FB79FD40088E616 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256BDAEC1FB79FD30088E616 /* GoogleService-Info-2.plist */; };
 		4B9A12D55BE007299DB1FA7F /* Pods_scarlethackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2B2936B93F6ECB8934B7B6 /* Pods_scarlethackTests.framework */; };
 		9E04DFA5FC2CCD17CFBDED3C /* Pods_scarlethack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217FC9B8E03D072D3729882B /* Pods_scarlethack.framework */; };
 		B8B4D59BDE939A3F649530A0 /* Pods_scarlethackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E2356634FC28AA1E4A4D82 /* Pods_scarlethackUITests.framework */; };
@@ -40,6 +41,7 @@
 		0CA053355F074AE6E88906AC /* Pods-scarlethackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scarlethackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scarlethackTests/Pods-scarlethackTests.release.xcconfig"; sourceTree = "<group>"; };
 		217FC9B8E03D072D3729882B /* Pods_scarlethack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scarlethack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ED543201D1BD157AF9042A /* Pods-scarlethack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scarlethack.release.xcconfig"; path = "Pods/Target Support Files/Pods-scarlethack/Pods-scarlethack.release.xcconfig"; sourceTree = "<group>"; };
+		256BDAEC1FB79FD30088E616 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		35E2356634FC28AA1E4A4D82 /* Pods_scarlethackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scarlethackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7843A1D7B40C7990849AC5 /* Pods-scarlethackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scarlethackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scarlethackTests/Pods-scarlethackTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D2B2936B93F6ECB8934B7B6 /* Pods_scarlethackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scarlethackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 		BDFD57F51FB79ABA00EFF794 /* scarlethack */ = {
 			isa = PBXGroup;
 			children = (
+				256BDAEC1FB79FD30088E616 /* GoogleService-Info-2.plist */,
 				BDFD57F61FB79ABA00EFF794 /* AppDelegate.swift */,
 				BDFD57F81FB79ABA00EFF794 /* ViewController.swift */,
 				BDFD57FA1FB79ABA00EFF794 /* Main.storyboard */,
@@ -283,6 +286,7 @@
 			files = (
 				BDFD58011FB79ABA00EFF794 /* LaunchScreen.storyboard in Resources */,
 				BDFD57FE1FB79ABA00EFF794 /* Assets.xcassets in Resources */,
+				256BDAED1FB79FD40088E616 /* GoogleService-Info-2.plist in Resources */,
 				BDFD57FC1FB79ABA00EFF794 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
